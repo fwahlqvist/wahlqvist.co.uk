@@ -30,7 +30,9 @@
         "phly/phly-contact": "dev-master",
         "zendframework/zendservice-recaptcha": "2.0.*",
         "bjyoungblood/bjy-authorize": "1.5.0-beta1",
-        "fwahlqvist/Article": "dev-master"
+        "fwahlqvist/Article": "dev-master",
+        "rwoverdijk/assetmanager": "1.4.4",
+        "kriswallsmith/assetic": "1.2.1"
     },
     "extra": {
         "installer-paths": {
