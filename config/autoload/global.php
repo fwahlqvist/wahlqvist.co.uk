@@ -12,7 +12,6 @@
  */
 
 return array(
-
     // Override defualt contorller
     'router' => array(
         'routes' => array(
