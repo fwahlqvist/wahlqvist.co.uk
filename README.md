@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+================
+wahlqvist.co.uk
+================
+
+
 ZendSkeletonApplication
 =======================
 
@@ -51,7 +55,3 @@ Virtual Host
 ------------
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!
-=======
-wahlqvist.co.uk
-===============
->>>>>>> FETCH_HEAD
