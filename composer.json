@@ -6,9 +6,34 @@
         "framework",
         "zf2"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/fwahlqvist/RoleUserBridge",
+            "url": "https://github.com/fwahlqvist/Article"
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
+    "minimum-stability": "dev",
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "2.4.0",
+        "socalnick/scn-social-auth": "1.17.1",
+        "rwoverdijk/assetmanager": "dev-master",
+        "zendexperts/ze-theme": "dev-master",
+        "fwahlqvist/zf2-mobile-theme": "dev-master",
+        "phly/phly-contact": "dev-master",
+        "zendframework/zendservice-recaptcha": "2.0.*",
+        "bjyoungblood/bjy-authorize": "dev-master",
+        "fwahlqvist/Article": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "themes/{$name}": [ "themes/zf2-mobile-theme"]
+        }
     }
 }
